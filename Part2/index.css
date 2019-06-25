@@ -53,3 +53,25 @@ section span:nth-of-type(3) {
   width: 100px;
   border: 1px solid #000;
 }
+
+
+.inputDiv{
+  width: 70vw;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  justify-self: center;
+  font-size: 30px;
+}
+
+.inputDiv input{
+  
+  flex-grow: 1;
+  font-size: 80%;
+}
+.inputDiv button{
+  font-size: 80%;
+  flex-grow: 1;
+  ;
+}
+

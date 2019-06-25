@@ -15,25 +15,37 @@
   <main>
     <table>
       <tr class="row">
-        <td id="0" onclick="play(0)"></td>
-        <td id="1" onclick="play(1)"></td>
-        <td id="2" onclick="play(2)"></td>
+        <td id="0" class="top left leftAcross reset" onclick="play(0)"></td>
+        <td id="1" class="top middle reset" onclick="play(1)"></td>
+        <td id="2" class="top right rightAcross reset" onclick="play(2)"></td>
       </tr>
       <tr class="row">
-        <td id="3" onclick="play(3)"></td>
-        <td id="4" onclick="play(4)"></td>
-        <td id="5" onclick="play(5)"></td>
+        <td id="3" class="center left reset" onclick="play(3)"></td>
+        <td id="4" class="center middle rightAcross leftAcross reset" onclick="play(4)"></td>
+        <td id="5" class="center right reset" onclick="play(5)"></td>
       </tr>
       <tr class="row">
-        <td id="6" onclick="play(6)"></td>
-        <td id="7" onclick="play(7)"></td>
-        <td id="8" onclick="play(8)"></td>
+        <td id="6" class="bottom left rightAcross reset" onclick="play(6)"></td>
+        <td id="7" class="bottom middle reset" onclick="play(7)"></td>
+        <td id="8" class="bottom right leftAcross reset" onclick="play(8)"></td>
       </tr>
     </table>
+
+    
+    
+
+<div class="resetButtonDiv">
+  <div class="playerDiv">
     <span>Player </span>
     <span id="player">X</span>
     <span>'s turn</span>
+  </div>
+    <br>
+  <button class="resetButton"onclick="reset()">reset</button>
+</div>
+  
   </main>
+  <script src="index.js"></script>
 </body>
 
 </html>
